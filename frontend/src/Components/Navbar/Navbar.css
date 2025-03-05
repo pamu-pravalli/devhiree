@@ -1,0 +1,126 @@
+
+.navbar {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7); 
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1001;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-item:hover {
+  color: #60a5fa; 
+}
+
+
+.btn {
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+
+/* Login Button */
+.login {
+  background: #1e40af;
+  color: white;
+}
+
+.login:hover {
+  background: #1d4ed8;
+}
+
+/* Register Button */
+.register {
+  background: #2563eb;
+  color: white;
+}
+
+.register:hover {
+  background: #1e3a8a;
+}
+
+/* Logout Button */
+.logout {
+  background: #dc2626;
+  color: white;
+}
+
+.logout:hover {
+  background: #b91c1c;
+}
+
+/* Responsive Menu Toggle */
+.menu-toggle {
+  display: none;
+  font-size: 22px;
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 0;
+    display: none;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+
+/* Ensure "Sign Up" stays in a single line */
+.no-wrap {
+  white-space: nowrap;
+}

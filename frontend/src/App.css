@@ -1,0 +1,15 @@
+.app-container {
+    padding-top: 60px; 
+    overflow-y: scroll;
+    height: 100vh;
+    scrollbar-width: none;
+    -ms-overflow-style: none;   
+  }
+  
+
+
+  
+  .app-container::-webkit-scrollbar {
+    display: none;
+  }
+  

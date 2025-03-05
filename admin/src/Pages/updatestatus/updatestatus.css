@@ -1,0 +1,81 @@
+
+.status-container {
+    max-width: 90%;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    overflow-x: auto; 
+  }
+  
+
+  .status-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  
+  .status-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .status-table th,
+  .status-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .status-table th {
+    background-color: #6c5ce7;
+    color: white;
+  }
+  
+  
+  .status-table td:nth-child(2) {
+    color: #2d3436;
+    font-weight: 500;
+  }
+  
+  
+  .status-table a {
+    color: #0984e3;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .status-table a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .status-table td:nth-child(4) {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  
+  .status-table select {
+    padding: 6px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ 
+  .status-table tr:hover {
+    background-color: #f4f4f4;
+  }
+  
+ 
+  .status-container p {
+    font-size: 16px;
+    color: #e74c3c;
+  }
+  
